@@ -9,7 +9,7 @@ package decorator;
  *
  * @author João
  */
-public class LeiteCondensado extends Condimento {
+public class LeiteCondensado extends Condimento {        
     
     public LeiteCondensado(Bebida bebida){
         setBebida(bebida);

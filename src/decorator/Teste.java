@@ -22,10 +22,5 @@ public class Teste {
         bebida = new LeiteCondensado(bebida);
         System.out.println(bebida.getDescricao());
         System.out.println(bebida.getValor());
-        
-        //Como eliminar um condimento???
-        ((Condimento) bebida).setBebida(null);
-        System.out.println(bebida.getDescricao());
-        System.out.println(bebida.getValor());
     }
 }
